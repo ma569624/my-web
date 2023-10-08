@@ -14,7 +14,7 @@ const Home = () => {
         autoplay: true,
         autoplayTimeout: 4000,
         animateOut: 'bounceOut',
-        animateIn: 'bounceIn',
+        // animateIn: 'bounceIn',
         nav: false,
         dots: false,
         margin: 100,
@@ -168,13 +168,14 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-lg-6">
                                 <div class="about-text-area-3 pl-20">
                                     <div class="default-section-title">
                                         <span>About Us</span>
-                                        <h3>We Can Fix All Types Of Laptops</h3>
-                                        <p>You get FREE pick-up and drop service for your Laptop at your location in Delhi as per your selected time slot. However, you can also bring your Laptop for repair at Lappy Center.</p>
-                                        <p>With Lappy Center, you can choose from a wide assortment of Laptop repair services in Delhi. Apart from motherboard repair, we also offer: </p>
+                                        <h3>Website Designing Company In Delhi</h3>
+                                        <p>Chahar Technologies is a Delhi-based Website Designing & Development Company, That works in Static Website Designing, Dynamic Website Designing, Core Php Development, WordPress Website Designing, Codeigniter Website Development, and E-commerce website development in Delhi. </p>
+                                        <p>Alternatives on here we are at global customers. Professionalism, reliability, ability, and knowledge are the main resources of our groups for providing outcomes in the quickest possible time. Chahar Technologies was established in the year of 2010 with a vision to provide Internet solutions with a comprehensive range of web services like Web Designing, Domain Name Registration, Cheap Domain, and Hosting Company in Delhi. we also offer: </p>
                                     </div>
                                     <div class="about-list">
                                         <ul>
@@ -198,7 +199,7 @@ const Home = () => {
                     <div class="container">
                         <div class="default-section-title default-section-title-middle">
                             <span>Our Services</span>
-                            <h3>Laptop Repair Services Available in Delhi</h3>
+                            <h3>Web Development Services Available in Delhi</h3>
                             <p>Contact Lappy Center for the best quality services at the most reasonable prices! We handle laptop and MacBook repairs</p>
                         </div>
                         <div class="section-content">
@@ -210,8 +211,8 @@ const Home = () => {
                                         </div>
                                         <div class="service-card-text-area">
                                             <i class="flaticon-repairing-service main-icon"></i>
-                                            <h4><a href="other.html">Windows laptop repair</a></h4>
-                                            <p>Visit charges of ₹159 will be adjusted with repair costs. Spare part costs extra; applicable as per rate card.</p>
+                                            <h4><a href="other.html">Ecommerce Website Designing</a></h4>
+                                            <p>E-Commerce is a popular way to sale your Products and service online over internet locally or globally. If you have website and did not take the advantages of this greate opportunity then you are not able to sale your.</p>
                                             <a class="read-more-btn" href="other.html">Read More <i class="flaticon-right-arrow"></i></a>
                                         </div>
                                     </div>
@@ -223,8 +224,8 @@ const Home = () => {
                                         </div>
                                         <div class="service-card-text-area">
                                             <i class="flaticon-mechanics main-icon"></i>
-                                            <h4><a href="macbook.html">MacBook repair</a></h4>
-                                            <p>Visit charges of ₹159 will be adjusted with repair costs. Spare part costs extra applicable as per rate card.</p>
+                                            <h4><a href="macbook.html">Responsive Website Designing</a></h4>
+                                            <p>Responsive Website Design is the approach which define that design or development should be depend on the user behavior and environment based on the multimedia devices utility like- their media screen size, platform and orientation.</p>
                                             <a class="read-more-btn" href="macbook.html">Read More <i class="flaticon-right-arrow"></i></a>
                                         </div>
                                     </div>
@@ -236,8 +237,47 @@ const Home = () => {
                                         </div>
                                         <div class="service-card-text-area">
                                             <i class="flaticon-big-gear main-icon"></i>
-                                            <h4><a href="imac.html">Deep clean service</a></h4>
-                                            <p>Software clean up to enhance laptop's performance. Deep cleaning of external and internal parts.</p>
+                                            <h4><a href="imac.html">Web Designing Service</a></h4>
+                                            <p>A Website is the source of gathering whole information about the business or brand to wrap them one things for the world wide web where the user or viewer can exchange and gain information. Now a day’s A Website is most important for each and every business or services because today’s market trends is digital and</p>
+                                            <a class="read-more-btn" href="imac.html">Read More <i class="flaticon-right-arrow"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="service-card">
+                                        <div class="service-card-img">
+                                            <a href="other.html"><img src="assets/images/New/hm-ser1.jpg" alt="image" /></a>
+                                        </div>
+                                        <div class="service-card-text-area">
+                                            <i class="flaticon-repairing-service main-icon"></i>
+                                            <h4><a href="other.html">Website Re -Design Company</a></h4>
+                                            <p>Chahartechnologies is a best re-designing company in delhi.Browser our portable Re-website Designing Company in Delhi India, which offer you best packages of web designing and development services for any size of business. We are reliable approach for maintaining your website updating and new</p>
+                                            <a class="read-more-btn" href="other.html">Read More <i class="flaticon-right-arrow"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="service-card">
+                                        <div class="service-card-img">
+                                            <a href="macbook.html"><img src="assets/images/New/hm-ser.jpg" alt="image" /></a>
+                                        </div>
+                                        <div class="service-card-text-area">
+                                            <i class="flaticon-mechanics main-icon"></i>
+                                            <h4><a href="macbook.html">Dynamic Website Designing</a></h4>
+                                            <p>Dynamic website designing required progressed and more muddled coding than static sites planning. The format of the pages and the substance of the website pages are made independently All the substance is put away in a database,Words, numbers, and pictures are put away as exceptional components.</p>
+                                            <a class="read-more-btn" href="macbook.html">Read More <i class="flaticon-right-arrow"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                    <div class="service-card">
+                                        <div class="service-card-img">
+                                            <a href="imac.html"><img src="assets/images/New/hm-ser3.jpg" alt="image" /></a>
+                                        </div>
+                                        <div class="service-card-text-area">
+                                            <i class="flaticon-big-gear main-icon"></i>
+                                            <h4><a href="imac.html">Website Maintenace Service</a></h4>
+                                            <p>Chahar Technologies is an effective website design & development company in New Delhi India. We maintain Core Php, Codeigniter, WordPress, Magento, etc. websites.</p>
                                             <a class="read-more-btn" href="imac.html">Read More <i class="flaticon-right-arrow"></i></a>
                                         </div>
                                     </div>

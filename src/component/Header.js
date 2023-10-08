@@ -56,15 +56,11 @@ const Header = () => {
                             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item ">
-                                    <Link to={'/'}>
-                                        Home
-                                    </Link>
+                                    <Link to={'/'}>Home</Link>
 
                                     </li>
                                     <li class="nav-item">
-                                        <Link to={'/service'}>
-                                        Services
-                                        </Link>
+                                        <Link to={'/service'}>Services</Link>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
                                                 <Link to={'/service'}>
@@ -79,14 +75,14 @@ const Header = () => {
                                             <li class="nav-item"><Link to={'/service'}>Other Laptop Repaire</Link></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"> <Link to={'/process'}> Our Working Process</Link></li>
-                                    <li class="nav-item"><Link to={'/gallery'}>  Our Gallery</Link></li>
-                                    <li class="nav-item"><Link to={'/about'}>  About Us</Link></li>
-                                    <li class="nav-item"><Link to={'/contact'}> Contact Us</Link></li>
+                                    <li class="nav-item"> <Link to={'/process'}>Our Process</Link></li>
+                                    <li class="nav-item"><Link to={'/gallery'}>Our Gallery</Link></li>
+                                    <li class="nav-item"><Link to={'/about'}>About Us</Link></li>
+                                    <li class="nav-item"><Link to={'/contact'}>Contact Us</Link></li>
                                 </ul>
                                 <div class="menu-sidebar">
                                     <ul>
-                                        <li><a class="default-button" href="tel: +91 6375549039"><span>Call A Service <i class="flaticon-right-arrow"></i></span></a></li>
+                                        <li><Link class="default-button" to="tel: +91 6375549039"><span>Call A Service <i class="flaticon-right-arrow"></i></span></Link></li>
                                     </ul>
                                 </div>
                             </div>
