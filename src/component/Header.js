@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <>
             <div class="topbar">
-                <div class="container-fluid container-large">
+                <div class="container container-large">
                     <div class="row align-items-center">
                         <div class="col-lg-8 col-md-9 col-sm-12 col-12">
                             <div class="topbar-left-area">
@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
 
                 <div class="main-nav">
-                    <div class="container-fluid container-large">
+                    <div class="container container-large">
                         <nav class="navbar navbar-expand-md navbar-light">
                             
                              <Link to={'/'}>
@@ -64,15 +64,17 @@ const Header = () => {
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
                                                 <Link to={'/service'}>
-                                                  MacBook Repaire
+                                                  React Js Development
                                                 </Link>
                                             </li>
                                                 
                                             <li class="nav-item">
-                                            <Link to={'/service'}>Mac Mini Repaire</Link>
+                                            <Link to={'/service'}>Angular Js Development</Link>
                                             </li>
-                                            <li class="nav-item"><Link to={'/service'}>iMac Repaire</Link></li>
-                                            <li class="nav-item"><Link to={'/service'}>Other Laptop Repaire</Link></li>
+                                            <li class="nav-item"><Link to={'/service'}>Node Js Development</Link></li>
+                                            <li class="nav-item"><Link to={'/service'}>Ecommerce Development</Link></li>
+                                            <li class="nav-item"><Link to={'/service'}>UI/UX Designing</Link></li>
+                                            <li class="nav-item"><Link to={'/service'}>Website Maintenace Service</Link></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item"> <Link to={'/process'}>Our Process</Link></li>

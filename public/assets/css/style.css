@@ -445,7 +445,7 @@ a.meanmenu-reveal {
 }
 .main-nav nav .navbar-nav {
   margin-left: auto;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 .main-nav nav .navbar-nav .nav-item {
   position: relative;
@@ -509,7 +509,7 @@ a.meanmenu-reveal {
   top: 70px;
   opacity: 0;
   z-index: 99;
-  width: 200px;
+  width: 260px;
   border: none;
   display: block;
   border-radius: 0;

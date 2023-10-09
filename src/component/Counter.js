@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import CountUp from 'react-countup'
+import { Link } from 'react-router-dom'
 import ScrollTrigger from 'react-scroll-trigger'
 
 
@@ -18,7 +19,7 @@ const Counter = () => {
                                     <div class="default-section-title color-title">
                                         <h3>Be Smart. Choose Lappy Center.</h3>
                                     </div>
-                                    <a class="default-button mt-30" href="other.html"><span>Browse Services <i class="flaticon-right-arrow"></i></span></a>
+                                    <Link class="default-button mt-30" to={'/contact'}><span>Contact Us<i class="flaticon-right-arrow"></i></span></Link>
                                 </div>
                             </div>
 
@@ -29,31 +30,35 @@ const Counter = () => {
                             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div class="fun-fact-card">
                                     <i class="flaticon-success"></i>
-                                    <h2><span class="odometer">{counterup && <CountUp start={0} end={825} duration={15} delay={1} />}</span>+</h2>
-                                    <p>Repaire laptops</p>
+                                    <h2><span class="odometer">{counterup && <CountUp start={0} end={564} duration={15} delay={1} />}</span>+</h2>
+                                    <p>Projects Launched</p>
                                 </div>
                             </div>
+                           
                             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div class="fun-fact-card">
                                     <i class="flaticon-experience"></i>
-                                    <h2><span class="odometer">{counterup && <CountUp start={0} end={793} duration={15} delay={1} />}</span>+</h2>
-                                    <p>Happy Customer</p>
+                                    <h2><span class="odometer" >{counterup && <CountUp start={0} end={352} duration={12} delay={1} />}</span>+</h2>
+                                    <p>Satisfied Customers</p>
                                 </div>
                             </div>
+
                             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div class="fun-fact-card">
                                     <i class="flaticon-guarantee-certificate"></i>
-                                    <h2><span class="odometer" >{counterup && <CountUp start={0} end={9} duration={12} delay={1} />}</span>+</h2>
-                                    <p>Award Winnings</p>
+                                    <h2><span class="odometer">{counterup && <CountUp start={0} end={5} duration={15} delay={1} />}</span>+</h2>
+                                    <p>Years Experience</p>
                                 </div>
                             </div>
+
                             <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                                 <div class="fun-fact-card">
                                     <i class="flaticon-expert"></i>
-                                    <h2><span class="odometer" >{counterup && <CountUp start={0} end={10} duration={12} delay={1} />}</span>+</h2>
-                                    <p>Experts Team</p>
+                                    <h2><span class="odometer" >{counterup && <CountUp start={0} end={96} duration={12} delay={1} />}</span>%</h2>
+                                    <p>Client Retention</p>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
                 </div>

@@ -24,13 +24,8 @@ const About = () => {
                         <div class="default-section-title">
                             <span>About Us</span>
                             <h3>Your Local Laptop & MacBook Repair Experts</h3>
-                            <p>Lappy Center is an independent repair provider headquartered in Nehru
-                        Place, Delhi. We are a lean start-up that values providing quality and hassle-free laptop
-                        services. We shift things fast to give our customers what matters most to them, and to keep us
-                        ahead of the game.</p>
-                            <p>We believe that things work better when fixed with passion. Customer
-                            satisfaction is our top priority and we will ensure you have an amazing experience with our
-                            services.</p>
+                            <p>Chahar Technologies established in the year of 2010 with a vision to provide Internet solutions with a comprehensive range of web services like Web Designing, Domain Name Registration, Web Hosting. FTP Server Space, E-Mail Solutions, and SSL Integration Service.Chahar Technologies gained recognition with high-quality projects on the local Indian market as well as outside India. Chahar Technologies is also providing. We have expertise in Web Designing, Development & SEO, public networking marketing, e-commerce, company logo, graphics, pay per just click.</p>
+
                         </div>
                     </div>
                 </div>
