@@ -133,3 +133,37 @@ export const FeatureSec = [
     },
 
 ]
+
+export const Service = [
+    {
+        id: 1,
+        title: 'React Js Development',
+        titleimg: 'assets/images/New/mackbook/ssd.png',
+    },
+    {
+        id: 2,
+        title: 'Angular Js Development',
+        titleimg: 'assets/images/New/mackbook/ssd.png',
+    },
+    {
+        id: 3,
+        title: 'Node Js Development',
+        titleimg: 'assets/images/New/mackbook/ssd.png',
+    },
+    {
+        id: 4,
+        title: 'Ecommerce Development',
+        titleimg: 'assets/images/New/mackbook/ssd.png',
+    },
+    {
+        id: 5,
+        title: 'UI/UX Designing',
+        titleimg: 'assets/images/New/mackbook/ssd.png',
+    },
+    {
+        id: 6,
+        title: 'Website Maintenace Service',
+        titleimg: 'assets/images/New/mackbook/ssd.png',
+    },
+    
+]

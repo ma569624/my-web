@@ -20,7 +20,7 @@ const RoutesApp = () => {
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/process" element={<Process />} />
-                    <Route path="/service" element={<Macbook />} />
+                    <Route path='/service/:userid' element={<Macbook />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>
