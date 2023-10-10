@@ -105,3 +105,31 @@ export const testimonial = [
         title: 'Event Manager',
     },
 ]
+
+export const FeatureSec = [
+    {
+        id: 1,
+        iconsrc: 'assets/images/icons/secure-shield.png',
+        title: '100% Confidentiality Assured',
+        paragraph: 'we have a strict policy of 100% confidentiality and will never share access to any unauthorized persons.',
+    },
+    {
+        id: 2,
+        iconsrc:'assets/images/icons/certificate.png',
+        title: 'Exceptional Quality',
+        paragraph:' Dedicated team of ZonSource specialist delivers the best outcome from their work without compromising on quality.',
+    },
+    {
+        id: 3,
+        iconsrc: 'assets/images/icons/user.png',
+        title: 'Easy & Seamless Communication',
+        paragraph: 'we have a team is available for answering all your questions that you have in mind regarding your project.',
+    },
+    {
+        id: 4,
+        iconsrc: 'assets/images/icons/setting.png',
+        title: 'Extremely Competitive Costs',
+        paragraph: 'we provide best services lessthan market value',
+    },
+
+]
