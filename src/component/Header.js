@@ -64,7 +64,7 @@ return (
 
                                 </li>
                                 <li class="nav-item">
-                                    <Link to={'/service'}>Services</Link>
+                                    <Link to={'/services'}>Services</Link>
                                     <ul class="dropdown-menu">
                                         {
                                             Service.map((val) => (
@@ -79,6 +79,7 @@ return (
                                 </li>
                                 <li class="nav-item"> <Link to={'/process'}>Our Process</Link></li>
                                 <li class="nav-item"><Link to={'/gallery'}>Our Gallery</Link></li>
+                                <li class="nav-item"><Link to={'/price'}>Pricing</Link></li>
                                 <li class="nav-item"><Link to={'/about'}>About Us</Link></li>
                                 <li class="nav-item"><Link to={'/contact'}>Contact Us</Link></li>
                             </ul>

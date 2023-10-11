@@ -6,6 +6,7 @@ export const HomeService =
             iconname: 'flaticon-repairing-service main-icon',
             title: 'React JS Development',
             describetion: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web apps, thanks to its component reusability.',
+            
         },
         {
             id: 2,
@@ -137,11 +138,11 @@ export const FeatureSec = [
 export const Service = [
     {
         id: 1,
-        title: 'React Js Developmeimgsrc',
+        title: 'React Js Development',
         imgsrc: '/assets/images/New/hm-ser1.jpg',
-        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagetitle: 'Build your React Application for Highly Scalable, Reliable, and Secured Solutions!',
         pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
-
+   
     },
     {
         id: 2,
@@ -179,4 +180,33 @@ export const Service = [
         pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
     },
     
+]
+
+export const ProcessData = [
+    {
+        id: 1,
+        num: '01',
+        title: 'Requirements',
+        desc: "We listen and ask the required questions to identify the client's needs and related expectations. Our experience and knowledge assist us to present the right solution to meet our client's needs.",
+    },
+    {
+        id: 2,
+        num: '02',
+        title: 'Wireframe & Design',
+        desc: "Design extends beyond mere presentation it encompasses the user experience. Our approach focuses on implementing designs that not only visually appeal but also make technology truly useful.",
+    },
+    {
+        id: 3,
+        num: '03',
+        title: 'Development',
+        desc: "We empower our clients to gain a competitive advantage by conducting extensive research and meticulously developing tailored functions that align with their strategic plans.",
+    }
+]
+export const Aboutdata = [
+    {
+        id: 1,
+        subtitle:'About Us',
+        title:'Who We Are',
+        desc:"Chahar Technologies established in the year of 2010 with a vision to provide Internet solutions with a comprehensive range of web services like Web Designing, Domain Name Registration, Web Hosting. FTP Server Space, E-Mail Solutions, and SSL Integration Service.Chahar Technologies gained recognition with high-quality projects on the local Indian market as well as outside India. Chahar Technologies is also providing. We have expertise in Web Designing, Development & SEO, public networking marketing, e-commerce, company logo, graphics, pay per just click.",
+    }
 ]

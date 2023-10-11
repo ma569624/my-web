@@ -8,6 +8,8 @@ import Contact from '../page/Contact'
 import Process from '../page/Process'
 import Macbook from '../page/Macbook'
 import About from '../page/About'
+import Services from '../page/Services'
+import PricePlan from '../page/PricePlan'
 
 const RoutesApp = () => {
     return (
@@ -21,6 +23,8 @@ const RoutesApp = () => {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/process" element={<Process />} />
                     <Route path='/service/:userid' element={<Macbook />} />
+                    <Route path='/services' element={<Services />} />
+                    <Route path='/price' element={<PricePlan />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

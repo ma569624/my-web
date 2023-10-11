@@ -12,6 +12,7 @@ import HeroSection from '../component/HeroSection';
 import OurService from '../component/OurService';
 import WorkingProcess from '../component/WorkingProcess';
 import FeatureSection from '../component/FeatureSection';
+import Plan from '../component/Plan';
 
 const Home = () => {
     
@@ -76,6 +77,8 @@ const Home = () => {
             <OurService />
 
             <Counter />
+
+            <Plan />
 
             <WorkingProcess />
 

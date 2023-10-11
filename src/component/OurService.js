@@ -5,7 +5,7 @@ import {HomeService} from '../ApiData'
 const OurService = () => {
   return (
     <section>
-                <div class="services pt-5 bg-f9f9f9">
+                <div class="services ptb-100 pt-5 bg-f9f9f9">
                     <div class="container">
                         <div class="default-section-title default-section-title-middle">
                             <span>Our Services</span>
@@ -34,9 +34,9 @@ const OurService = () => {
                                     ))
                                 }
                             </div>
-                            <div class="section-footer-button">
+                            {/* <div class="section-footer-button">
                                 <Link class="default-button default-button-2 mt-30" to={'/'}><span>Browse Services <i class="flaticon-right-arrow"></i></span></Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

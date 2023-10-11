@@ -1,60 +1,60 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { Service } from '../ApiData'
-import OurService from '../component/OurService';
+import { HomeService, Service } from '../ApiData'
+import BannerSection from '../component/BannerSection';
+// import OurService from '../component/OurService';
 
 const Macbook = () => {
-    const param  = useParams();
-    let {userid} = param
+    const param = useParams();
+    let { userid } = param
     const [data, setdata] = useState("")
 
     useEffect(() => {
-       
-        setdata(Service[userid-1])
-        
-    },[userid])
-    
+
+        setdata(Service[userid - 1])
+
+    }, [userid])
+
 
 
     return (
         <>
-            <div class="uni-banner">
-                <div class="container container-large">
-                    <div class="uni-banner-text-area">
-                        <h1>{data.title} Service</h1>
-                        <ul>
-                            <li><Link to={'/'}>Home</Link></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="services pt-70 pb-100">
+            <BannerSection />
+            
+            <div class="service-details pt-100 pb-100">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8">
-                            <div class="row justify-content-center">
-
-                                <div class="col-lg-12 col-md-6 col-sm-6 col-12">
-                                    <div class="service-card">
-                                        <div class="service-card-img">
-                                            <img src={data.imgsrc} alt="ssss" />
+                            <div class="details-page-text-area">
+                                <img class="details-page-main-img" src={data.imgsrc} alt="image" />
+                                <h3>{data.pagetitle}</h3>
+                                <p>{data.pagedesc}</p>
+                                <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventor veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia volup sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.</p>
+                                {/* <div class="details-page-text-img-area">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <img src="/assets/images/services/service2.jpg" alt="image" />
                                         </div>
-                                        <div class="service-card-text-area">
-                                            <i class="flaticon-mechanics main-icon"></i>
-                                            <h4>{data.pagetitle}</h4>
-                                            <p>{data.pagedesc}</p>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                                            <img src="/assets/images/services/service3.jpg" alt="image" />
                                         </div>
                                     </div>
+                                </div> */}
+                                <h4>About This Service</h4>
+                                <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventor veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <div class="about-list">
+                                    <ul>
+                                        <li>24/7 Live Support</li>
+                                        <li>Low Cost Services</li>
+                                        <li>Quick Repair Services</li>
+                                        <li>Fast Delivery</li>
+                                    </ul>
                                 </div>
-
+                                <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventor veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia sit aspernatur aut odit aut fugit, sed quia consequu.</p>
                             </div>
-
                         </div>
                         <div class="col-lg-4">
-                            <div class="sidebar-area mt-30 pl-20">
+                            <div class="sidebar-area  pl-20">
                                 <div class="sidebar-services">
                                     <ul>
                                         {
@@ -78,7 +78,9 @@ const Macbook = () => {
                 </div>
             </div>
 
+
         </>
+
     )
 }
 
