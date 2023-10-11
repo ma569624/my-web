@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Service } from '../ApiData'
+import OurService from '../component/OurService';
 
 const Macbook = () => {
     const param  = useParams();
@@ -8,10 +9,10 @@ const Macbook = () => {
     const [data, setdata] = useState("")
 
     useEffect(() => {
-        let val  = userid
+       
         setdata(Service[userid-1])
-        console.warn(userid);
-    },[param])
+        
+    },[userid])
     
 
 
@@ -39,13 +40,12 @@ const Macbook = () => {
                                 <div class="col-lg-12 col-md-6 col-sm-6 col-12">
                                     <div class="service-card">
                                         <div class="service-card-img">
-                                            <img src="" alt="image" />
+                                            <img src={data.imgsrc} alt="ssss" />
                                         </div>
                                         <div class="service-card-text-area">
                                             <i class="flaticon-mechanics main-icon"></i>
-                                            <h4>SSD Upgrade</h4>
-                                            <p>Your device will be collected after getting your signature on the internal components of your Laptop.</p>
-
+                                            <h4>{data.pagetitle}</h4>
+                                            <p>{data.pagedesc}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -77,6 +77,7 @@ const Macbook = () => {
                     </div>
                 </div>
             </div>
+
         </>
     )
 }

@@ -39,7 +39,7 @@ return (
             <div class="main-responsive-nav">
                 <div class="container-fluid container-large">
                     <div class="mobile-nav">
-                        <Link to={'/'} ><img src="assets/images/New/lappy_logo(1).png" alt="logo" /></Link>
+                        <Link to={'/'} ><img src="/assets/images/New/lappy_logo(1).png" alt="logo" /></Link>
                         <ul class="menu-sidebar menu-small-device">
                             <li><a class="cart-icon" href="cart.html"><i class="flaticon-cart"></i><span>03</span></a></li>
                             <li><button class="popup-button"><i class="flaticon-loupe"></i></button></li>
@@ -54,7 +54,7 @@ return (
                     <nav class="navbar navbar-expand-md navbar-light">
 
                         <Link to={'/'}>
-                            <img src="assets/images/New/lappy_logo.png" alt="logo" />
+                            <img src="/assets/images/New/lappy_logo.png" alt="logo" />
                         </Link>
 
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">

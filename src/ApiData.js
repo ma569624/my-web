@@ -2,14 +2,14 @@ export const HomeService =
     [
         {
             id: 1,
-            imgsrc: 'assets/images/New/hm-ser1.jpg',
+            imgsrc: '/assets/images/New/hm-ser1.jpg',
             iconname: 'flaticon-repairing-service main-icon',
             title: 'React JS Development',
             describetion: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web apps, thanks to its component reusability.',
         },
         {
             id: 2,
-            imgsrc: 'assets/images/New/hm-ser.jpg',
+            imgsrc: '/assets/images/New/hm-ser.jpg',
             iconname: 'flaticon-mechanics main-icon',
             title: 'Angular Js Development',
             describetion: 'AngularJS, crafting interactive, scalable, cross-platform web apps to meet diverse business needs, be it custom widgets or feature-rich Web apps.',
@@ -17,28 +17,28 @@ export const HomeService =
         },
         {
             id: 3,
-            imgsrc: 'assets/images/New/hm-ser3.jpg',
+            imgsrc: '/assets/images/New/hm-ser3.jpg',
             iconname: 'flaticon-big-gear main-icon',
             title: 'Node Js Development',
             describetion: 'Node js, a JavaScript-based technology will accelerate both back-end and front-end applications. The technology gives powerful, and secure development.', 
         },
         {
             id: 4,
-            imgsrc: 'assets/images/New/hm-ser1.jpg',
+            imgsrc: '/assets/images/New/hm-ser1.jpg',
             iconname: 'flaticon-repairing-service main-icon',
             title: 'Ecommerce Development',
             describetion: 'Our inventive aptitude in content service conveys out of the crate custom solutions. Our e-commerce development services in corporate.',
         },
         {
             id: 5,
-            imgsrc: 'assets/images/New/hm-ser.jpg',
+            imgsrc: '/assets/images/New/hm-ser.jpg',
             iconname: 'flaticon-mechanics main-icon',
             title: 'UI/UX Designing',
             describetion: 'Our designs enhance user interaction across various platforms – websites, emails, social campaigns, and ad banners. Its boosting user loyalty and traffic for our clients.',
         },
         {
             id: 6,
-            imgsrc: 'assets/images/New/hm-ser1.jpg',
+            imgsrc: '/assets/images/New/hm-ser1.jpg',
             iconname: 'flaticon-repairing-service main-icon',
             title: 'Website Maintenace Service',
             describetion: 'Maintaining a well-kept and appealing website is crucial for businesses of all sizes to attract and retain customers and modifying web pages to keep them fresh and engaging.',
@@ -137,33 +137,46 @@ export const FeatureSec = [
 export const Service = [
     {
         id: 1,
-        title: 'React Js Development',
-        titleimg: 'assets/images/New/mackbook/ssd.png',
+        title: 'React Js Developmeimgsrc',
+        imgsrc: '/assets/images/New/hm-ser1.jpg',
+        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
+
     },
     {
         id: 2,
         title: 'Angular Js Development',
-        titleimg: 'assets/images/New/mackbook/ssd.png',
+        imgsrc: '/assets/images/New/hm-ser.jpg',
+        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
     },
     {
         id: 3,
         title: 'Node Js Development',
-        titleimg: 'assets/images/New/mackbook/ssd.png',
+        imgsrc: '/assets/images/New/mackbook/ssd.png',
+        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
     },
     {
         id: 4,
         title: 'Ecommerce Development',
-        titleimg: 'assets/images/New/mackbook/ssd.png',
+        imgsrc: '/assets/images/New/mackbook/ssd.png',
+        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
     },
     {
         id: 5,
         title: 'UI/UX Designing',
-        titleimg: 'assets/images/New/mackbook/ssd.png',
+        imgsrc: '/assets/images/New/mackbook/ssd.png',
+        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
     },
     {
         id: 6,
         title: 'Website Maintenace Service',
-        titleimg: 'assets/images/New/mackbook/ssd.png',
+        imgsrc: '/assets/images/New/mackbook/ssd.png',
+        pagetitle: 'Hire React js Developers for Highly Scalable, Reliable, and Secured Solutions!',
+        pagedesc: 'React.js is a powerful open-source JavaScript framework known for its speed and flexibility. It’s great for building interactive UI’s for web and mobile apps, thanks to its component reusability. With its virtual DOM, React is ideal for complex and performance-intensive applications. Consider hiring React.js developers from ZonSource for robust and tailored solutions.',
     },
     
 ]

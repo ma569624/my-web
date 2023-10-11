@@ -31,7 +31,7 @@ const Footer = () => {
                     <div class="row">
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div class="footer-logo-area">
-                                <img src="assets/images/New/lappy_logo.png" alt="logo" />
+                                <img src="/assets/images/New/lappy_logo.png" alt="logo" />
                                 <p>Contact Lappy Center for the best quality services at the most reasonable prices! We handle laptop
                                     and MacBook repairs</p>
                                 <div class="footer-social-area">
