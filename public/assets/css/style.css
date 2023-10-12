@@ -2110,7 +2110,7 @@ a.meanmenu-reveal {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../images/New/slider1.png);
+  background-image: url(../images/banner/bannerimg-1-bg.png);
   padding-top: 180px;
   padding-bottom: 180px;
 }
@@ -2144,10 +2144,10 @@ a.meanmenu-reveal {
   z-index: 2;
 }
 .hbs-2 {
-  background-image: url(../images/New/slider2.png);
+  background-image: url(../images/banner/bannerimg-2-bg.png);
 }
 .hbs-3 {
-  background-image: url(../images/New/slider3.png);
+  background-image: url(../images/banner/bannerimg-3-bg.png);
 }
 .home-banner {
   position: relative;

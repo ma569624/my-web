@@ -1,5 +1,6 @@
 import React from 'react'
 import { FeatureSec } from '../ApiData'
+import { Link } from 'react-router-dom'
 
 const FeatureSection = () => {
     return (
@@ -22,7 +23,7 @@ const FeatureSection = () => {
                         }
 
                     </div>
-                    <a class="section-bottom-link mt-30" href="contact.html">Contact for Repair <i class="flaticon-right-arrow"></i></a>
+                    <Link class="section-bottom-link mt-30" >Contact for Repair <i class="flaticon-right-arrow"></i></Link>
                 </div>
             </div>
         </section>

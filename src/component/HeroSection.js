@@ -53,22 +53,6 @@ const HeroSection = () => {
                             </div>
                         </div>
 
-                        <div class='item'>
-                            <div class="home-banner-single-slide">
-                                <div class="container container-large">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="banner-text-area banner-text-area-1">
-                                                <h6>Mac & Windows Repairing Services</h6>
-                                                <h1>welcome to Lappy Center Service.</h1>
-                                                <p>Choose from a wide range of Laptop repair services from motherboard repair, battery replacement and much more in Delhi! .</p>
-                                                <Link class="default-button" href="contact.html"><span>Contact Us<i class="flaticon-right-arrow"></i></span></Link>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class='item'>
                             <div class="home-banner-single-slide hbs-2">
